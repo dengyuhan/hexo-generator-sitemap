@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 
 describe('Sitemap generator', () => {
   const hexo = new Hexo(__dirname, {silent: true});
-  hexo.config.sitemap = {
+  hexo.config.baidusitemap = {
     path: 'sitemap.xml'
   };
   const Post = hexo.model('Post');

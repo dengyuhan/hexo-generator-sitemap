@@ -3,12 +3,12 @@
 
 const pathFn = require('path');
 
-const config = hexo.config.sitemap = Object.assign({
+const config = hexo.config.baidusitemap = Object.assign({
   path: 'sitemap.xml'
-}, hexo.config.sitemap);
+}, hexo.config.baidusitemap);
 
 if (!pathFn.extname(config.path)) {
   config.path += '.xml';
 }
 
-hexo.extend.generator.register('sitemap', require('./lib/generator'));
+hexo.extend.generator.register('baidusitemap', require('./lib/generator'));
