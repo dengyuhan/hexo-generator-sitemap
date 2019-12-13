@@ -1,6 +1,6 @@
 {
-  "name": "hexo-generator-sitemap",
-  "version": "1.2.0",
+  "name": "@xiandanin/hexo-generator-baidu-sitemap",
+  "version": "2.0.0",
   "description": "Sitemap generator plugin for Hexo",
   "main": "index",
   "scripts": {
@@ -16,7 +16,7 @@
     "index.js",
     "sitemap.xml"
   ],
-  "repository": "hexojs/hexo-generator-sitemap",
+  "repository": "@xiandanin/hexo-generator-baidu-sitemap",
   "keywords": [
     "hexo",
     "sitemap",
@@ -25,11 +25,13 @@
   ],
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "maintainers": [
-    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
+    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)",
+    "Xian Dan <denghahae@qq.com> (http://xiandan.in)"
   ],
   "license": "MIT",
   "dependencies": {
-    "minimatch": "^3.0.0",
+    "hexo-util": "^1.4.0",
+    "micromatch": "^4.0.2",
     "nunjucks": "^3.1.6"
   },
   "devDependencies": {
@@ -37,7 +39,7 @@
     "cheerio": "^0.22.0",
     "eslint": "^6.0.1",
     "eslint-config-hexo": "^3.0.0",
-    "hexo": "^3.0.0",
+    "hexo": "^4.0.0",
     "mocha": "^6.0.2",
     "nyc": "^14.1.0"
   },
