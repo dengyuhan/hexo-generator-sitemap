@@ -28,6 +28,7 @@
     "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)",
     "Xian Dan <denghahae@qq.com> (http://xiandan.in)"
   ],
+  "homepage": "https://github.com/xiandanin/hexo-generator-baidu-sitemap",
   "license": "MIT",
   "dependencies": {
     "hexo-util": "^1.4.0",

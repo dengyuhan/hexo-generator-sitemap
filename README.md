@@ -1,4 +1,4 @@
-# hexo-generator-sitemap-baidu
+# hexo-generator-baidu-sitemap
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-generator-sitemap.svg?branch=master)](https://travis-ci.org/hexojs/hexo-generator-sitemap)
 [![NPM version](https://badge.fury.io/js/hexo-generator-sitemap.svg)](https://www.npmjs.com/package/hexo-generator-sitemap)
