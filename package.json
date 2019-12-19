@@ -1,6 +1,6 @@
 {
   "name": "@xiandanin/hexo-generator-baidu-sitemap",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Sitemap generator plugin for Hexo",
   "main": "index",
   "scripts": {
@@ -28,7 +28,7 @@
     "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)",
     "Xian Dan <denghahae@qq.com> (http://xiandan.in)"
   ],
-  "homepage": "https://github.com/xiandanin/hexo-generator-baidu-sitemap",
+  "homepage": "https://github.com/xiandanin/hexo-generator-baidu-sitemap#readme",
   "license": "MIT",
   "dependencies": {
     "hexo-util": "^1.4.0",

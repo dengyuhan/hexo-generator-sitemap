@@ -9,7 +9,7 @@ Generate baidu sitemap.
 ## Install
 
 ``` bash
-$ npm install hexo-generator-baidu-sitemap --save
+$ npm install @xiandanin/hexo-generator-baidu-sitemap --save
 ```
 
 - Hexo 4: 2.x
